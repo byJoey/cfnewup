@@ -1,4 +1,4 @@
-main = "_worker.js"
+name = "cs"main = "_worker.js"
 
 # Cloudflare Workers 兼容日期
 compatibility_date = "2025-11-01"
