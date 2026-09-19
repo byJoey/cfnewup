@@ -1,10 +1,10 @@
 // CFnew - 终端 v3.0
-// 版本: v3.0 
+// 版本: v34.0 
 import { connect as 连接 } from 'cloudflare:sockets';
-const 基础64文本解码器 = new TextDecoder();
+const 基础64文本解码器 = 新建 TextDecoder();
 function 解码64(文本) {
   const 二进制 = atob(文本);
-  const 字节 = new Uint8Array(二进制.length);
+  const 字节 = 新建 Uint8Array(二进制.length);
   for (let 索引 = 0; 索引 < 二进制.length; 索引++) 字节[索引] = 二进制.charCodeAt(索引);
   return 基础64文本解码器.decode(字节);
 }
