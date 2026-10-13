@@ -41,7 +41,7 @@ let 启用优选地址 = true;
 let 启用仓库优选 = true;
 let 启用原生地址 = false; // 原生地址默认关闭          
 // 家宽链式：cfnew 自己的节点当前置，落地换成住宅宽带
-let 启用家宽链式 = false;
+let 启用家宽链式 = true;
 
 let 键值存储 = null;
 let 键值配置 = {};
